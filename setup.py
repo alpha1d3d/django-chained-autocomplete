@@ -9,10 +9,11 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='django-chained-autocomplete',
-    version='0.0.5',
+    version='0.0.8',
     description='Chain autocomplete dropdowns in django admin.',
     long_description=long_description,
     long_description_content_type='text/markdown',
+    include_package_data=True,
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
