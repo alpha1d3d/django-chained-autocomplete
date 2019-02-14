@@ -2,6 +2,7 @@
 '''
 
 from django import forms
+from django.conf import settings
 from django.contrib.admin import widgets
 
 
@@ -23,7 +24,7 @@ class ChainedSelectWidget(widgets.AutocompleteSelect):
                 'admin/js/vendor/jquery/jquery.js',
                 'admin/js/vendor/select2/select2.full.js',
                 'admin/js/jquery.init.js',
-                'js/autocomplete-chained.js',
+                settings.STATIC_URL + 'dist/autocomplete_chained.js',
             ),
             css={
                 'screen': (

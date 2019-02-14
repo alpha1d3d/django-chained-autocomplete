@@ -9,7 +9,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='django-chained-autocomplete',
-    version='0.0.4',
+    version='0.0.5',
     description='Chain autocomplete dropdowns in django admin.',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -20,7 +20,7 @@ setup(
         'Framework :: Django :: 2.1',
     ],
     keywords='django autocomplete chained filtered',
-    url='http://github.com/alpha1d3d/django-autocomplete-chained',
+    url='http://github.com/alpha1d3d/django-chained-autocomplete',
     author='Jonathan Loo',
     author_email='alpha1d3d@hotmail.com',
     license='MIT',
