@@ -9,7 +9,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='django-chained-autocomplete',
-    version='0.01,
+    version='0.0.1',
     description='Chain autocomplete dropdowns in django admin.',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -18,7 +18,7 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.6',
     ],
-    keywords='sonos lyrics lyricfetch',
+    keywords='django autocomplete chained filtered',
     url='http://github.com/alpha1d3d/django-autocomplete-chained',
     author='Jonathan Loo',
     author_email='alpha1d3d@hotmail.com',
