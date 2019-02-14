@@ -16,13 +16,13 @@ Install via pip
     
 
 Add to Django `settings.py`
-    ```python
-      INSTALLED_APPS = [
-        'autocomplete_chained',
-        ...
-      ]
-    
-    ```
+
+```python
+INSTALLED_APPS = [
+    'autocomplete_chained',
+    ...
+]
+```
 
 Usage
 -----
