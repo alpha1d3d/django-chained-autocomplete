@@ -32,7 +32,7 @@ class ChainedSelectFieldsMixin:
         '''
         db = kwargs.get('using')
         if db_field.name in self.chained_select_fields.keys():
-            kwargs['widget'] = FilterableSelectWidget(
+            kwargs['widget'] = ChainedSelectWidget(
                 db_field.remote_field, self.admin_site, using=db,
                 filter_key=self.chained_select_fields[db_field.name],
             )
